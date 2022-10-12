@@ -11,7 +11,7 @@
           "architecture": "samd",
           "version": "0.0.10",
           "category": "Contributed",
-          "url": "https://github.com/jon0x0/AirborneBoardsPublicBSP/tree/main/custom_board/AirborneBoards-0.0.10.zip?raw=true",
+          "url": "https://github.com/jon0x0/AirborneBoardsPublicBSP/blob/main/airborne_boards/airborne_boards-0.0.10.zip?raw=true",
           "archiveFileName": "airborne_boards-0.0.10.zip",
           "checksum": "SHA-256:11548823EBA45DC8F7E14B65EF23DF06697E31E047C7DE231EADA0CE07DD82DE",
           "size": "2835639",
