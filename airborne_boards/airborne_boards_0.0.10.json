@@ -37,11 +37,6 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "adafruit",
-              "name": "arm-none-eabi-gcc",
-              "version": "9-2019q4"
-            },
-            {
               "packager": "airborne_innovations",
               "name": "bossac",
               "version": "1.9.1-airbornecustom"
