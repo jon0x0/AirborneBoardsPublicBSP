@@ -13,8 +13,8 @@
           "category": "Contributed",
           "url": "https://github.com/jon0x0/AirborneBoardsPublicBSP/blob/main/airborne_boards/airborne_boards-0.0.10.zip?raw=true",
           "archiveFileName": "airborne_boards-0.0.10.zip",
-          "checksum": "SHA-256:11548823EBA45DC8F7E14B65EF23DF06697E31E047C7DE231EADA0CE07DD82DE",
-          "size": "2835639",
+          "checksum": "SHA-256:EC64F2939BF7F26EE6C5226797F432D6C7D3B023509A85DAD57220D5AE05BF0E",
+          "size": "4671652",
           "boards": [
             {
               "name": "Ethernet Multicomm M4 CAN"
@@ -22,9 +22,14 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "arduino",
+              "packager": "adafruit",
               "name": "arm-none-eabi-gcc",
-              "version": "7-2017q4"
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
             },
             {
               "packager": "arduino",
@@ -33,20 +38,29 @@
             },
             {
               "packager": "arduino",
-              "name": "openocd",
-              "version": "0.10.0-arduino9"
+              "name": "bossac",
+              "version": "1.9.1 AirborneCustom"
             },
             {
               "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "adafruit",
               "name": "CMSIS",
-              "version": "4.5.0"
+              "version": "5.4.0"
             },
             {
               "packager": "arduino",
               "name": "CMSIS-Atmel",
               "version": "1.2.0"
-            }
-          ]
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }          ]
         }
       ],
       "tools": []
