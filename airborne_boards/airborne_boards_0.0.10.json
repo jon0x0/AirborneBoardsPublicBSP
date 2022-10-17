@@ -28,8 +28,8 @@
           "category": "Contributed",
           "url": "https://github.com/jon0x0/AirborneBoardsPublicBSP/blob/main/airborne_boards/airborne_boards-0.0.10.zip?raw=true",
           "archiveFileName": "airborne_boards-0.0.10.zip",
-          "checksum": "SHA-256:E78510D6B7FD9A70F4C032815D5038BF04ED9D5CB1DCF6931A807D5C166C5481",
-          "size": "4671675",
+          "checksum": "SHA-256:8205D0563D44C15AC5EA491F752C1BC0020525CF8BA66C8DBA6618F60D160F9B",
+          "size": "4671660",
           "boards": [
             {
               "name": "Ethernet Multicomm M4 CAN"
