@@ -27,24 +27,9 @@
               "version": "9-2019q4"
             },
             {
-              "packager": "arduino",
+              "packager": "airborne",
               "name": "bossac",
-              "version": "1.7.0-arduino3"
-            },
-            {
-              "packager": "arduino",
-              "name": "bossac",
-              "version": "1.8.0-48-gb176eee"
-            },
-            {
-              "packager": "arduino",
-              "name": "bossac",
-              "version": "1.9.1 AirborneCustom"
-            },
-            {
-              "packager": "arduino",
-              "name": "openocd",
-              "version": "0.10.0-arduino7"
+              "version": "1.9.1-airbornecustom"
             },
             {
               "packager": "adafruit",
@@ -63,7 +48,19 @@
             }          ]
         }
       ],
-      "tools": []
+      "tools":  [
+        {
+          "name": "bossac",
+          "version": "1.9.1-airbornecustom",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/jon0x0/AirborneBoardsPublicBSP/blob/main/airborne_boards/bossac-1.9.1-airbornecustom.zip?raw=true",
+              "archiveFileName": "bossac-1.9.1-airbornecustom.zip",
+              "checksum": "SHA-256:CD485557A494A80BFB8327BEF0F2131D3C3198D71FF37B0B724F209704E58636",
+              "size": "3006739"
+            }
+      ]
     }
   ]
 }
