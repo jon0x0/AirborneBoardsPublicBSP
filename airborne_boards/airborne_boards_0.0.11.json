@@ -1,0 +1,49 @@
+{
+  "packages": [
+    {
+      "name": "airborne_innovations",
+      "maintainer": "Airborne Innovations",
+      "websiteURL": "https://airborneinnovations.com",
+      "email": "info@airborneinnovations.com",
+      "tools":  [
+        {
+          "name": "bossac",
+          "version": "1.9.2-airbornecustom",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/jon0x0/AirborneBoardsPublicBSP/blob/main/airborne_boards/bossac-1.9.2-airbornecustom.zip?raw=true",
+              "archiveFileName": "bossac-1.9.2-airbornecustom.zip",
+              "checksum": "SHA-256:DEFC125063831ABC55A82C1059A85505E61B7C887DED3023E407C9F8710CD6F6",
+              "size": "2589588"
+            }
+          ]
+        }
+      ],        
+      "platforms": [
+        {
+          "name": "Airborne Innovations Boards",
+          "architecture": "samd",
+          "version": "0.0.11",
+          "category": "Contributed",
+          "url": "https://github.com/jon0x0/AirborneBoardsPublicBSP/blob/main/airborne_boards/airborne_boards-0.0.11.zip?raw=true",
+          "archiveFileName": "airborne_boards-0.0.11.zip",
+          "checksum": "SHA-256:D8F44461BDDF0B55DE0FBFF5CF9E373A9961235618E497465020A048157E9BEA",
+          "size": "9867635",
+          "boards": [
+            {
+              "name": "Ethernet Multicomm M4 CAN"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "airborne_innovations",
+              "name": "bossac",
+              "version": "1.9.2-airbornecustom"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
